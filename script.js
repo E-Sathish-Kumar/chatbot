@@ -9,7 +9,7 @@ function closechat() {
 
 let chatBody = document.querySelector('.body');
 let textInput = document.querySelector('#textInput');
-let send = document.querySelector('.send');
+let send = document.querySelector('#send');
 
 
 textInput.addEventListener("keydown", (key) => {
