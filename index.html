@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CX-Fusion | World's Number One Call-Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="item"><a id="first" href="#">Home</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Our Services</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+        <input type="text" name="text" id="search" placeholder="type here..">
+        <button>Search</button>
+    </nav>
+    <div class="container">
+
+        <!-- cx-fusion heading -->
+        <div class="box">
+            <h1>CX-Fusion</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut provident, amet quos saepe quas iusto qui
+                officiis distinctio? Necessitatibus delectus voluptatibus beatae sed expedita quisquam, porro similique
+                harum eaque iusto?</p>
+            <button type="submit" id="login">Login</button>
+        </div>
+        <!-- sign up form -->
+        <div class="form-box">
+            <h2>Sign up!</h2>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="repassword" placeholder="Re-type Password">
+                </div>
+                <button class="btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- chatbot HTML -->
+    <button class="open" onclick="openchat()">Chat with us!</button>
+
+    <div class="chat-box" id="chat">
+        <button class="head" onclick="closechat()">Chat with Us!</button>
+        <div class="body"></div>
+        <div class="input">
+            <input type="text" name="text" id="textInput" placeholder="type message.." autofocus>
+            <button type="submit">Send</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

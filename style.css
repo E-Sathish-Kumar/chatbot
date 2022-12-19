@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/elearn.jpg');
+  color: white;
+}
+
+/* Navigation styling */
+
+.navbar {
+  /* border: 1px solid black; */
+  display: flex;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+
+.item {
+  padding: 5px 25px;
+}
+
+li a {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+#first {
+  text-decoration: underline;
+  color: grey;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+#search {
+  position: relative;
+  left: 485px;
+  top: 20px;
+  width: 205px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 2px 10px;
+}
+
+.navbar button {
+  position: relative;
+  left: 496px;
+  top: 20px;
+  width: 67px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+/* About cx-fusion and sign up form */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.box {
+  /* border: 1px solid red; */
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  width: 800px;
+  height: 300px;
+}
+
+.box h1 {
+  font-size: 3rem;
+}
+
+.box p {
+  text-align: center;
+}
+
+#login {
+  width: 134px;
+  height: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(26, 82, 82);
+  color: white;
+  cursor: pointer;
+}
+
+.form-box {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  width: 550px;
+  height: 412px;
+  margin: 5px;
+  height: 300px;
+  padding: 25px;
+  background-color: whitesmoke;
+}
+
+.form-box h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: black;
+  margin-left: 36px;
+}
+
+.form-group input {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid rgb(190, 187, 187);
+  width: 445px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-box button {
+  width: 160px;
+  margin: 10px 0px 0px 33px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 13px 8px;
+  background-color: rgb(26, 82, 82);
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+}
+
+/* chatbot design */
+
+.open {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: aqua;
+  color: white;
+  width: 170px;
+  height: 44px;
+  padding: 16px 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+}
+
+.chat-box {
+  /* border: 1px solid red; */
+  display: none;
+  width: 280px;
+  height: 399px;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+}
+
+.head {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 280px;
+  padding: 16px 20px;
+  text-align: center;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding-right: 5px;
+  width: 280px;
+  height: 309px;
+  background-color: white;
+}
+
+.input {
+  border-top: 1px solid rgb(196, 191, 191);
+  display: flex;
+  box-sizing: border-box;
+}
+
+#textInput {
+  width: 215px;
+  height: 33px;
+  padding-left: 6px;
+  border: none;
+  outline: none;
+}
+
+.input button {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: rgb(46, 207, 207);
+  cursor: pointer;
+  width: 65px;
+  height: 35px;
+  border: none;
+  outline: none;
+}
+
+.input button:hover {
+  background-color: rgb(46, 207, 207);
+  color: white;
+}
+
+.user-message {
+  background-color: rgb(46, 207, 207);
+  color: white;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px 3px 10px 10px;
+  width: max-content;
+  opacity: 0.8;
+}
